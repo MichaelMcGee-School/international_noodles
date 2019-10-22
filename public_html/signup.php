@@ -9,39 +9,10 @@
 	</head>
 
 	<body>
-		<nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="interactive_map_page.html">Interactive Map</a>
-                </li>
-                <li>
-                    <a href="rankings_page.html">Rankings</a>
-                </li>
-                <li>
-                    <a href="recipes_page.html">Recipes</a>
-                </li>
-                <li>
-                    <a href="fun_facts_page.html">Fun Facts</a>
-                </li>
-                <li>
-                    <a href="about_page.html">About Page</a>
-                </li>
-                <li>
-                	<a href="contact_page.html">Contact Us</a>
-                </li>
-                <li>
-					<a href="signup.html">Sign Up</a>
-				</li>
-            </ul>
-        </nav>
+		<?php include '../resources/navbar.php'; ?>
         <section class="meat">
         
-          <section class="login_button">
-              <a class="login_link" href="login_page.html">Login</a>
-          </section>
+          <?php include '../resources/header.php'; ?>
             
           <header>
             <img class="earth_png" src="img/non_food/in_logo.png" alt="IN Logo"/>
@@ -85,10 +56,6 @@
             </fieldset>
           </form>
         </section>
-		<footer>
-          <hr>
-          <p>&copy;International Noodles</p>
-          <p>Contact us at internationalnoodles&commat;gmail&period;com</p>
-        </footer>
+		<?php include '../resources/footer.php'; ?>
 	</body>
 </html>

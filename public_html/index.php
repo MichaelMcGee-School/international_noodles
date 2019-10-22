@@ -12,34 +12,7 @@
 
         
     <body>
-        <nav>
-            <ul>
-                <li>
-                    <a class="active" href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="interactive_map_page.html">Interactive Map</a>
-                </li>
-                <li>
-                    <a href="rankings_page.html">Rankings</a>
-                </li>
-                <li>
-                    <a href="recipes_page.html">Recipes</a>
-                </li>
-                <li>
-                    <a href="fun_facts_page.html">Fun Facts</a>
-                </li>
-                <li>
-                    <a href="about_page.html">About Page</a>
-                </li>
-				<li>
-                    <a href="contact_page.html">Contact Us</a>
-                </li>
-                <li>
-					<a href="signup.html">Sign Up</a>
-				</li>
-            </ul>
-        </nav>
+        <?php include '../resources/navbar.php'; ?>
         
         <section class="meat">
             
@@ -47,10 +20,7 @@
                 <a class="login_link" href="login_page.html">Login</a>
             </section>
         
-            <header>
-              <img class="earth_png" src="img/non_food/in_logo.png" alt="IN Logo"/>
-              <h1 class="main_name">International Noodles</h1>
-            </header>
+            <?php include '../resources/header.php'; ?>
             
             <p style="font-size: 18px;">International Noodles is proud to present information on international food&period; We provide statistics on food&comma; recipes from around the world&comma; and the top foods from around the world&period; We hope to educate as well as intrigue all that visits our page&period;
             <br>
@@ -59,11 +29,7 @@
         </section>
     
         
-        <footer>
-          <hr>
-          <p>&copy;International Noodles</p>
-          <p>Contact us at internationalnoodles&commat;gmail&period;           com</p>
-        </footer>
+        <?php include '../resources/footer.php'; ?>
     </body>
 </html>
         

@@ -16,11 +16,7 @@
      <input type="submit" value="Login">
    </form>
   
-   <footer>
-    <hr>
-    <p>&copy;International Noodles</p>
-    <p>Contact us at internationalnoodles&commat;gmail&period;com</p>
-   </footer>
+   <?php include '../resources/footer.php'; ?>
 
   </body>
 
